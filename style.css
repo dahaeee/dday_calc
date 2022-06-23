@@ -1,19 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+
 body {
-    font-family: 'Dancing Script', cursive;
-}
-
-h1 {
-    margin-top: 250px;
+    font-family: 'Gothic A1', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    text-align: center;
+    height: 100vh;
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
+p {
+    font-size: 20px;
 }
+
+input {
+    font-size: 20px;
+    margin: 10px;
+}
+
+input[type=button] {
+    margin-left: 15px;
+    border: 1px solid rgb(138, 137, 137);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* 가운데로 옮겨야함! */
+#output {
+    display: inline-block;
+}
+
